@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/home"
+        android:title="홈" />
+    <item
+        android:id="@+id/chatbotFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/smart_toy_24px"
+        android:title="챗봇검색" />
+    <item
+        android:id="@+id/scrapFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/bookmark_24px"
+        android:title="스크랩" />
+    <item
+        android:id="@+id/menuAllFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/menu_24px"
+        android:title="전체메뉴" />
+</menu>

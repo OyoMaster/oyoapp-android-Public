@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="30dp"
+    android:viewportWidth="960"
+    android:viewportHeight="960"
+    android:tint="@color/defalt_balck">
+  <path
+      android:fillColor="@android:color/white"
+      android:pathData="M242.46,757.54L387.69,757.54L387.69,522.89L572.31,522.89L572.31,757.54L717.54,757.54L717.54,400.61L480,220.92L242.46,400.49L242.46,757.54ZM205.54,794.46L205.54,381.96L480,174.61L754.46,382.26L754.46,794.46L535.39,794.46L535.39,559.81L424.61,559.81L424.61,794.46L205.54,794.46ZM480,489.23L480,489.23L480,489.23L480,489.23L480,489.23L480,489.23L480,489.23L480,489.23L480,489.23L480,489.23Z"/>
+</vector>

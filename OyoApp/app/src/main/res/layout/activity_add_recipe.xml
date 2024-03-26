@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddRecipeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="24dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/pretendard_bold"
+            android:text="제목"
+            android:textColor="@color/defalt_balck"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/editbox_01"
+            android:hint="제목을 쓰세요."
+            android:inputType="textMultiLine"
+            android:scrollHorizontally="true"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/defalt_balck"
+            android:textColorHint="@color/main_color"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/btnUploadImg"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/button_regular"
+            android:fontFamily="@font/pretendard_bold"
+            android:paddingTop="3dp"
+            android:text="이미지 업로드"
+            android:textAlignment="center"
+            android:textColor="@color/main_color"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtImageFile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="업로드 파일명"
+            android:textAlignment="center"
+            android:textColor="@color/main_color" />
+
+        <TextView
+            android:id="@+id/txtIngredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/pretendard_bold"
+            android:text="재료"
+            android:textColor="@color/defalt_balck"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editIngredients"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/editbox_01"
+            android:gravity="top|left"
+            android:hint="재료를 쓰세요."
+            android:inputType="textMultiLine"
+            android:scrollHorizontally="true"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/defalt_balck"
+            android:textColorHint="@color/main_color"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtRecipe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/pretendard_bold"
+            android:text="레시피"
+            android:textColor="@color/defalt_balck"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editRecipe"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/editbox_01"
+            android:ems="10"
+            android:gravity="top|left"
+            android:hint="레시피를 쓰세요."
+            android:inputType="textMultiLine"
+            android:scrollHorizontally="true"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/defalt_balck"
+            android:textColorHint="@color/main_color"
+            android:textSize="16sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
